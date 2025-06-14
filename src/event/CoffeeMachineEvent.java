@@ -1,0 +1,12 @@
+package event;
+
+public enum CoffeeMachineEvent {
+    INSERT_COIN,
+    CHECK_INGREDIENTS,
+    INGREDIENTS_OK,
+    INGREDIENTS_FAIL,
+    BREWING_COMPLETE,
+    CUP_REMOVED,
+    INGREDIENTS_REFILLED,
+
+}
