@@ -10,6 +10,7 @@ public class CoffeeMachine {
     @Getter
     private CoffeeMachineState currentState;
     @Setter
+    @Getter
     private double currentBalance;
     @Setter
     @Getter
